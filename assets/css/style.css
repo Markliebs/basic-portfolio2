@@ -214,17 +214,61 @@ input[type=submit] {
 	cursor: pointer;
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 980px @screen-sm-min) {
-    background-color:blue;
+
+
+@media screen and (max-width:640px){
+    .auth-image {
+			clear: both;
+        float:top;
+        width:100%;
+			max-width: 270px;
+    }
+	.sidebar{
+		clear:both;
+		margin-left: 0px;
+		float:bottom;
+		width:100%;
+/*		max-width: 270px;*/
+	}
+	.connect{
+		clear:both;
+		margin-left: 0px;
+		float:bottom;
+		width:100%;
+/*		max-width: 270px;*/
+	}
+}
+@media screen and (max-width:768px){
+    .auth-image {
+			clear: both;
+        float:top;
+        width:100%;
+			max-width: 270px;
+    }
+	.sidebar{
+		clear:both;
+		margin-left: 0px;
+		float:bottom;
+		width:100%;
+/*		max-width: 270px;*/
+	}
+	.connect{
+		clear:both;
+		margin-left: 0px;
+		float:bottom;
+		width:100%;
+/*		max-width: 270px;*/
+	}
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 768px @screen-md-min) {
-    background-color:red;
+@media screen and (max-width:980px){
+    .auth-image {
+        float:left;
+        width:40%;
+    }
+	.sidebar{
+		float:right;
+		width:30%;
+	}
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @640px @screen-lg-min) {
-    background-color:black;
-} 
